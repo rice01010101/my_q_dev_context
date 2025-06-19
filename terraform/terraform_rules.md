@@ -50,5 +50,5 @@ WIP
 - 各環境の main.tf に変更があった場合は各環境の docs 内にある infra.svg をコードと一致するように修正してください（docs/infra.svg が存在しない場合は作成してください）。また、各環境の README.md も修正する必要があれば修正してください（未作成であれば作成してください）。
 - README.md には Mermaid 記法で Terraform コードの構成を記載してください。
 - 基本的に参照されることがないのであれば outputs.tf に output を記述しないでください。
-- リソースモジュールについては基本的に認定モジュール（https://registry.terraform.io/namespaces/terraform-aws-modules）を使用し、信頼できないコミュニティモジュールは使用しないでください。
+- リソースモジュールについては基本的に[認定モジュール](https://registry.terraform.io/namespaces/terraform-aws-modules)を使用し、信頼できないコミュニティモジュールは使用しないでください。
 - 使用できる認定モジュールがない場合は modules ディレクトリに AWS サービス粒度でモジュールを自作しても良いです。ただし作成前に確認を取ってください。
